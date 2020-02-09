@@ -4,104 +4,189 @@
     <meta charset="utf-8">
     <title>Porfolio | Billy Rose</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <! --link rel="stylesheet" href="styles/reset.css"-->
+    <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
     <script src="https://kit.fontawesome.com/674f69483f.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav>
-      <img src="images/billy-logo.svg" alt="logo" href="index.html"></img>
-      <a href="about.html">About</a>
-      <h3>Work</h3>
-      <h3>Contact</h3>
-    </nav>
-    <header>
+    <div class="project-container">
+      <nav class="navbar">
+          <ul class="logo-side">
+            <li>
+              <a href="index.html">
+                  <img class="my-logo" src="images/billy-logo.svg" alt="personal logo">
+              </a>
+            </li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="nav">
+              <li>
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+      </nav>
+    <header class="project-header">
       <h2 id="top">Summary</h2>
-      <h1>Bag of Sharing</h1>
-      <p>Table-top Role Playing Gamers have few options for sharing files and searching for resources in a convenient, unintrusive platform.
-Bag of Sharing is a collaborative declutters the table with a clean mobile collaboration platform, allowing RPG parties to spend less time dealing with meta-game interference and spend more time crafting great stories.</p>
-      <a href="https://www.figma.com/proto/hMpuvgQyyqjj1jhNDoyz2y/Mobile-Pages-Webpage-and-App-screens?node-id=1%3A2&viewport=-2343%2C-72%2C0.22457049787044525&scaling=min-zoom">Try the prototype</a><br>
-      <h3>Roles</h3>
-      <p>UX<br>Research<br>Visual Design<br>Branding and Identity
-      <h3>Tools</h3>
-      <p>Google Forms<br>Draw.io<br>Sketch.io<br>Figma<br>Adobe Illustrator<br>WebAim<br>Sim Daltonism<br>Usability Hub</p>
-      <img src="images/bag-phone.png" alt="header-image">
+      <div class="left">
+        <h1>Bag of Sharing</h1>
+        <p>Table-top Role Playing Gamers have few options for sharing files and searching for resources in a convenient, unintrusive platform.
+  Bag of Sharing is a collaborative declutters the table with a clean mobile collaboration platform, allowing RPG parties to spend less time dealing with meta-game interference and spend more time crafting great stories.</p>
+        <a href="https://www.figma.com/proto/hMpuvgQyyqjj1jhNDoyz2y/Mobile-Pages-Webpage-and-App-screens?node-id=1%3A2&viewport=-2343%2C-72%2C0.22457049787044525&scaling=min-zoom">Try the prototype</a><br>
+      </div>
+      <div class="right">
+        <h3>Roles</h3>
+        <p>UX<br>Research<br>Visual Design<br>Branding and Identity
+        <h3>Tools</h3>
+        <p>Google Forms<br>Draw.io<br>Sketch.io<br>Figma<br>Adobe Illustrator<br>WebAim<br>Sim Daltonism<br>Usability Hub</p>
+        <img src="images/bag-phone.png" alt="header-image">
+      </div>
     </header>
     <main>
-      <h3>Problem</h3>
-      <p>Create a cloud organization product to meet the needs of a yet-identified user base. The app must allow users to:<br><br>Upload content<br><br>Organize that content into categories<br><br>Create networks<br><br>Share content with networks
-      <h3>Solution</h3>
-      <p>Bag of Sharing is aimed at helping pen-and-paper roleplaying gamers have a better gaming experience. It focuses on file sharing and team creation/management. Now pen-and-paper gamers can:<br><br>Send files selectively.<br><br>Share files instantly.<br><br>Organize files into folders.
+      <div class="left">
+        <h3>Problem</h3>
+        <p>Create a cloud organization product to meet the needs of a yet-identified user base. The app must allow users to:<br><br>Upload content<br><br>Organize that content into categories<br><br>Create networks<br><br>Share content with networks
+      </div>
+      <div class="right">
+        <h3>Solution</h3>
+        <p>Bag of Sharing is aimed at helping pen-and-paper roleplaying gamers have a better gaming experience. It focuses on file sharing and team creation/management. Now pen-and-paper gamers can:<br><br>Send files selectively.<br><br>Share files instantly.<br><br>Organize files into folders.
+      </div>
       <h2>Process</h2>
-      <h3>Competitive Analysis</h3>
-      <a href="project.html">Read competitive analysis</a><br>
-      <p>Few tools exist to help tabletop Role Playing Gamers and their teams realize greater storytelling. Tools like Role20 focus on visual information and delight, providing maps and animations. Other tools, like D&D Beyond, are proprietary and only work with one game system out of thousands.<br>Google Drive and Dropbox provide much of the functionality that roleplaying gamers are looking for, but each has drawbacks. Both are geared toward business. Dropbox’s collaborative space comes at a high monthly premium. Google Drive team management is not intuitive and difficult to navigate. Leisure-focused platforms, like Pinterest, are a community favorite but are mostly utilized for aesthetic inspiration out of gameplay.<p>
-      <img src="images/competitive-analysis.png">
-      <h3>User Surveys</h3>
-      <a href="project.html">View the survey</a><br>
-      <p>A user survey was sent out to identify users’ current cloud storage needs, and use types. Most people use Google and Dropbox for the vast majority of situations. Pinterest was a popular hobby and leisure tool. As the competitive analysis suggested, people made do with the tools at their disposal, but none were optimized for file sharing in a pen-and-paper RPG environment.<br>Follow up interviews were conducted, and users who play pen-and-paper RPGs were asked about the features and characteristics they desire from a cloud collaboration app. File sharing and intuitive team building/interacting were the highest priority features.</p>
-      <img src="images/survey-stats.png">
-      <h3>Personas</h3>
-      <a href="project.html">View the personas</a><br>
-      <p>Tabletop roleplaying games are perhaps more popular than ever. Shows like Community, Stranger Things, Harmonquest, and Rick and Morty have brought RPGs into nearly every household. Podcasts, Twitch Streams, and Youtube channels are devoted to RPG play and culture. More people are playing than ever.<br>Two personas were developed based on user surveys and interviews. Khara is a college student, strapped for cash, and obsessed with pen and paper gaming. She needs callaboration tools that are portable, as she often catches the bus to games. Hari is now a full-time RPG gamer who runs an actual play podcast network. He needs powerful file sharing that can help him devote more time to creating captivating audio entertainment.</p>
-      <img src="images/hari.png">
-      <img src="images/khara.png">
-      <h3>User Stories</h3>
-      <a href="project.html">View the stories</a><br>
-      <p>Market research, user surveys, and personas all honed in on specific user needs. To give these more focus, I developed a set of user stories that stated user desires and then prioritized them. This exercise yielded the essential functions Bag of Sharing needed for a successful Minimum Viable Product. Referring back to these stories was essential for avoiding scope creep (especially with various tabletop roleplaying gamers consulting on what would be “cool” throughout the process).</p>
-      <img src="images/user-stories.png">
-      <h3>User Flows</h3>
-      <a href="project.html">View the user flows</a><br>
-      <p>I developed various user flows. Some were very complex. Some were less complex. Ultimately, whether from the start or from user testing, I found that the less complex the user flow, the easier time the user had learning and using the app (an important lesson learned from Devo’s Freedom of Choice).</p>
-      <img src="images/userflow.png">
-      <h3>Wireframes</h3>
-      <p>User flows made clear exactly what users will do to complete tasks with Bag of Sharing. Wireframing explored many different versions of how users will do those things to complete those tasks. Configurations explored include:<br><br>All actions at the top of a dashboard, which organizes content into 5 categories<br><br>All actions, including search and menu, moved to a bottom navbar<br><br>All actions moved to a bottom Floating Action Button, with a standard search placement</p>
-      <img src="images/testing-1.png">
-      <p>Original dashboard</p>
-      <img src="images/testing-2.png">
-      <p>Updated bottom nav</p>
-      <img src="images/testing-3.png">
-      <p>Search with tabs</p>
-      <img src="images/testing-4.png">
-      <p>Bottom nav & tabs</p>
+      <div class="bg blue">
+        <div class="left">
+          <h3>Competitive Analysis</h3>
+          <a href="project.html">Read competitive analysis</a><br>
+          <p>Few tools exist to help tabletop Role Playing Gamers and their teams realize greater storytelling. Tools like Role20 focus on visual information and delight, providing maps and animations. Other tools, like D&D Beyond, are proprietary and only work with one game system out of thousands.<br>Google Drive and Dropbox provide much of the functionality that roleplaying gamers are looking for, but each has drawbacks. Both are geared toward business. Dropbox’s collaborative space comes at a high monthly premium. Google Drive team management is not intuitive and difficult to navigate. Leisure-focused platforms, like Pinterest, are a community favorite but are mostly utilized for aesthetic inspiration out of gameplay.<p>
+        </div>
+        <div class="right">
+          <img src="images/competitive-analysis.png">
+        </div>
+      </div>
+      <div class="left">
+        <h3>User Surveys</h3>
+        <a href="project.html">View the survey</a><br>
+        <p>A user survey was sent out to identify users’ current cloud storage needs, and use types. Most people use Google and Dropbox for the vast majority of situations. Pinterest was a popular hobby and leisure tool. As the competitive analysis suggested, people made do with the tools at their disposal, but none were optimized for file sharing in a pen-and-paper RPG environment.<br>Follow up interviews were conducted, and users who play pen-and-paper RPGs were asked about the features and characteristics they desire from a cloud collaboration app. File sharing and intuitive team building/interacting were the highest priority features.</p>
+      </div>
+      <div class="right">
+        <img src="images/survey-stats.png">
+      </div>
+      <div class="left">
+        <h3>Personas</h3>
+        <a href="project.html">View the personas</a><br>
+        <p>Tabletop roleplaying games are perhaps more popular than ever. Shows like Community, Stranger Things, Harmonquest, and Rick and Morty have brought RPGs into nearly every household. Podcasts, Twitch Streams, and Youtube channels are devoted to RPG play and culture. More people are playing than ever.<br>Two personas were developed based on user surveys and interviews. Khara is a college student, strapped for cash, and obsessed with pen and paper gaming. She needs callaboration tools that are portable, as she often catches the bus to games. Hari is now a full-time RPG gamer who runs an actual play podcast network. He needs powerful file sharing that can help him devote more time to creating captivating audio entertainment.</p>
+      </div>
+      <div class="right">
+        <img src="images/hari.png">
+        <img src="images/khara.png">
+      </div>
+      <div class="bg yellow">
+        <div class="left">
+          <h3>User Stories</h3>
+          <a href="project.html">View the stories</a><br>
+          <p>Market research, user surveys, and personas all honed in on specific user needs. To give these more focus, I developed a set of user stories that stated user desires and then prioritized them. This exercise yielded the essential functions Bag of Sharing needed for a successful Minimum Viable Product. Referring back to these stories was essential for avoiding scope creep (especially with various tabletop roleplaying gamers consulting on what would be “cool” throughout the process).</p>
+        </div>
+        <div class="right">
+          <img src="images/user-stories.png">
+        </div>
+      <div class="left">
+        <h3>User Flows</h3>
+        <a href="project.html">View the user flows</a><br>
+        <p>I developed various user flows. Some were very complex. Some were less complex. Ultimately, whether from the start or from user testing, I found that the less complex the user flow, the easier time the user had learning and using the app (an important lesson learned from Devo’s Freedom of Choice).</p>
+      </div>
+      <div class="right">
+        <img src="images/userflow.png">
+      </div>
+      <div class="left">
+        <h3>Wireframes</h3>
+        <p>User flows made clear exactly what users will do to complete tasks with Bag of Sharing. Wireframing explored many different versions of how users will do those things to complete those tasks. Configurations explored include:<br><br>All actions at the top of a dashboard, which organizes content into 5 categories<br><br>All actions, including search and menu, moved to a bottom navbar<br><br>All actions moved to a bottom Floating Action Button, with a standard search placement</p>
+      </div>
+      <div class="big-images">
+        <img src="images/testing-1.png">
+        <p>Original dashboard</p>
+        <img src="images/testing-2.png">
+        <p>Updated bottom nav</p>
+        <img src="images/testing-3.png">
+        <p>Search with tabs</p>
+        <img src="images/testing-4.png">
+        <p>Bottom nav & tabs</p>
+      </div>
       <h2>Branding</h2>
       <a href="project.html">View the style guide</a><br>
-      <h3>Brand Name</h3>
-      <p>I wanted Bag of Sharing to reflect the diversity I have seen in my own games. The tabletop RPG community has been traditionally conceived of as a refuge for the other. I wanted to celebrate that history of inclusivity, especially as the gaming community, at large, deals with a toxic history. I also wanted to emphasize the collaborative and creative aspects of Bag of Sharing.<br>I generated a list of terms from the vast lexicon of RPGdom. Eschewing the narrow medieval fantasy imagery evoked by one style of RPG, I wanted to nod to the community without penning it in. There is a common trope in these games where a member of a team suddenly has an item from the collective inventory. It doesn’t make sense, and shouldn’t have happened. It’s called the bag of sharing. It’s implausible, magical, and incredibly helpful, just like the app.</p>
-      <img src="images/brand-sketches.png">
-      <h3>Logo</h3>
-      <p>Again, calling to the RPG community at large was the goal. I chose a familiar form, the 20 sided die, and deconstructed it. Emphasizing a single face, comprised of an equilateral triangle, the logo expands out along the lines of the flattened triangles around it. The logo evokes a sense of infinite possible triangles, a nod to the collaborative and creative elements of tabletop RPGs.</p>
-      <img src="images/bag-logo.png">
-      <h3>Color Palette & Typeface</h3>
-      <p>Bag of Sharing is vibrant and active, like the community it celebrates. I chose a palette of highly saturated tones, supported by understated tints and shades. The main colors are the complimentary teal and watermelon tones, which are used in large bold planes when possible. These are assisted by another complementary set of bold colors for accents.<br>Rubik is stark. It is reminiscent of 20th-century Grotesque typefaces, and evokes a print feel. At the same time, the slightly rounded corners soften Rubik and invite readers to stick around.</p>
-      <img src="images/colors-image.png">
-      <img src="images/rubik-alone.png">
-      <h2>Mockups & Testing</h2>
-      <h3>Mockups</h3>
-      <p>Branding guidelines provided the framework to build high fidelity mockups. During this phase I didn’t just apply a color palette to wireframes. User feedback and iterative exploration led to different solutions, including cleaning up navigation and utilizing user-friendly CTAs and snackbars</p>
-      <img src="images/test-1.png">
-      <p>Early Mockup with bottom nav</p>
-      <img src="images/test-2.png">
-      <p>Early confirmation with reversal action</p>
-      <img src="images/test-3.png">
-      <p>Simplified navigation</p>
-      <img src="images/test-4.png">
-      <p>User-friendly snackbar</p>
-      <h3>Testing</h3>
-      <p>User feedback included preference tests through Usability Hub, in-person and email interviews, and, perhaps most importantly, user testing the prototype. The feedback from these tests was essential to refining the interface and creating a quality user experience. Improvements discovered through user testing include:<br>Simplifying to a floating action button<br>Moving account settings to remove otherwise useless hamburger menu<br>Using snackbar notifications that an action is complete, and including a prominent reversal CTA.
-      <img src="images/testing-image.png">
-      <h2>Conclusion</h2>
-      <h3>Summary & Beyond</h3>
-      <p>Bag of Sharing meets a basic need of the pen-and-paper roleplaying gamers, by providing portable storage, organization, and collaboration. A collaboration tool adapted to any game system is highly anticipated by the community. But these features are only the beginning<br>Concepts for features of upcoming releases include:<br>Native file types like character sheets.<br>Initiative trackers (to keep track of whose turn it is in a fight, for example.)<br>Split-screen/ screen-in-screen A/V conferencing for remote games<br>Social platform for finding people to form games, find user-created content and have others follow your games
-      <h3>Meta-Conclusion</h3>
-      <p>I have so many takeaways from this incredibly enriching project. I learned a deep appreciation for Google Material Design Guidelines and the research that led to them. I also learned that obsessing over a particular layout may lead you to ignore what your users need. If it weren’t for testing, I would probably never have faced the fact that my preoccupation with bottom navigation was ignoring user tendencies. I also learned, through interviews with tabletop roleplaying gamers, that the community is even more enthusiastic than I had ever imagined. </p>
-      <a href="#top">Back to top</a><br>
+      <div class="bg red">
+        <div class="left">
+          <h3>Brand Name</h3>
+          <p>I wanted Bag of Sharing to reflect the diversity I have seen in my own games. The tabletop RPG community has been traditionally conceived of as a refuge for the other. I wanted to celebrate that history of inclusivity, especially as the gaming community, at large, deals with a toxic history. I also wanted to emphasize the collaborative and creative aspects of Bag of Sharing.<br>I generated a list of terms from the vast lexicon of RPGdom. Eschewing the narrow medieval fantasy imagery evoked by one style of RPG, I wanted to nod to the community without penning it in. There is a common trope in these games where a member of a team suddenly has an item from the collective inventory. It doesn’t make sense, and shouldn’t have happened. It’s called the bag of sharing. It’s implausible, magical, and incredibly helpful, just like the app.</p>
+        </div>
+        <div class="right">
+          <img src="images/brand-sketches.png">
+        </div>
+        <div class="left">
+          <h3>Logo</h3>
+          <p>Again, calling to the RPG community at large was the goal. I chose a familiar form, the 20 sided die, and deconstructed it. Emphasizing a single face, comprised of an equilateral triangle, the logo expands out along the lines of the flattened triangles around it. The logo evokes a sense of infinite possible triangles, a nod to the collaborative and creative elements of tabletop RPGs.</p>
+        </div>
+        <div class="right">
+          <img src="images/bag-logo.png">
+        </div>
+        <div class="left">
+          <h3>Color Palette & Typeface</h3>
+          <p>Bag of Sharing is vibrant and active, like the community it celebrates. I chose a palette of highly saturated tones, supported by understated tints and shades. The main colors are the complimentary teal and watermelon tones, which are used in large bold planes when possible. These are assisted by another complementary set of bold colors for accents.<br>Rubik is stark. It is reminiscent of 20th-century Grotesque typefaces, and evokes a print feel. At the same time, the slightly rounded corners soften Rubik and invite readers to stick around.</p>
+        </div>
+        <div class="right">
+          <img src="images/colors-image.png">
+          <img src="images/rubik-alone.png">
+        </div>
+        <h2>Mockups & Testing</h2>
+        <div class="bg blue">
+          <div class="left">
+            <h3>Mockups</h3>
+            <p>Branding guidelines provided the framework to build high fidelity mockups. During this phase I didn’t just apply a color palette to wireframes. User feedback and iterative exploration led to different solutions, including cleaning up navigation and utilizing user-friendly CTAs and snackbars</p>
+          <div class="big-images">
+            <img src="images/test-1.png">
+            <p>Early Mockup with bottom nav</p>
+            <img src="images/test-2.png">
+            <p>Early confirmation with reversal action</p>
+            <img src="images/test-3.png">
+            <p>Simplified navigation</p>
+            <img src="images/test-4.png">
+            <p>User-friendly snackbar</p>
+          </div>
+        </div>
+        <div class="left">
+          <h3>Testing</h3>
+          <p>User feedback included preference tests through Usability Hub, in-person and email interviews, and, perhaps most importantly, user testing the prototype. The feedback from these tests was essential to refining the interface and creating a quality user experience. Improvements discovered through user testing include:<br>Simplifying to a floating action button<br>Moving account settings to remove otherwise useless hamburger menu<br>Using snackbar notifications that an action is complete, and including a prominent reversal CTA.
+        </div>
+        <div class="right">
+          <img src="images/testing-image.png">
+        </div>
+        <h2>Conclusion</h2>
+        <div class="left">
+          <h3>Summary & Beyond</h3>
+          <p>Bag of Sharing meets a basic need of the pen-and-paper roleplaying gamers, by providing portable storage, organization, and collaboration. A collaboration tool adapted to any game system is highly anticipated by the community. But these features are only the beginning<br>Concepts for features of upcoming releases include:<br>Native file types like character sheets.<br>Initiative trackers (to keep track of whose turn it is in a fight, for example.)<br>Split-screen/ screen-in-screen A/V conferencing for remote games<br>Social platform for finding people to form games, find user-created content and have others follow your games
+        </div>
+        <div class="right">
+          <h3>Meta-Conclusion</h3>
+          <p>I have so many takeaways from this incredibly enriching project. I learned a deep appreciation for Google Material Design Guidelines and the research that led to them. I also learned that obsessing over a particular layout may lead you to ignore what your users need. If it weren’t for testing, I would probably never have faced the fact that my preoccupation with bottom navigation was ignoring user tendencies. I also learned, through interviews with tabletop roleplaying gamers, that the community is even more enthusiastic than I had ever imagined. </p>
+          <a href="#top">Back to top</a><br>
+        </div>
     </main>
-    <footer>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-dribbble"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-twitter-square"></i>
+    <footer class="footer project-footer" id="bottom">
+      <ul class="icons">
+        <li><i class="fas fa-envelope-square"></i></li>
+        <li><i class="fab fa-dribbble"></i></li>
+        <li><i class="fab fa-linkedin"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+      </ul>
+      <p class="signature">Designed and Developed by Billy Rose</p>
     </footer>
   </body>
 </html>
