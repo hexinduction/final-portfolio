@@ -15,36 +15,44 @@
   </head>
   <body>
     <div class="container">
-      <header id="header">
-        <h1 class="greeting">Hello.</h1>
-        <h3 class="intro">My name is Billy Rose. From printmaking to Architecture school to UX, my path has lead me to design delightful and encouraging experiences.</h3>
-      </header>
+        <header class="header" id="header">
+          <div class="header-grid">
+            <div class="header-spacer"></div>
+            <div class="header-grid-comp">
+              <h1 class="greeting">Hello.</h1>
+              <h3 class="intro">My name is Billy Rose. From printmaking to Architecture school to UX, my path has lead me to design delightful and encouraging experiences.</h3>
+            </div>
+          </div>
+        </header>
         <nav class="navbar">
-            <ul class="logo-side">
-              <li>
-                <a href="index.html">
-                    <img class="my-logo" src="images/billy-logo.svg" alt="personal logo">
-                </a>
-              </li>
-            </ul>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-            <ul class="nav">
+          <div class="nav-grid">
+              <ul id="nav" class="nav">
                 <li>
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="#work">Work</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a href="index.html">
+                      <img class="my-logo" src="images/billy-logo.svg" alt="personal logo">
+                  </a>
                 </li>
               </ul>
+              <ul id="nav" class="nav nav-right">
+                  <li>
+                    <a class="nav-link about" href="about.html">About</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#work">Work</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </li>
+                </ul>
+            </div>
         </nav>
         <h2 id="work" class="work">Recent work</h2>
         <main class="projects" id="projects">
-            <div class="project"></div>
             <div class="project">
               <img class="project-img"src="images/bag-of-sharing.png" alt="project-image">
               <div class="project-text">
@@ -53,7 +61,7 @@
                 <a class="button project-link" href="project.html">View case study</a><br>
               </div>
             </div>
-            <div class="project">
+            <div class="project second-project">
               <img class="project-img" src="images/busybus.png" alt="project-image">
               <div class="project-text">
                 <h3 class="project-title">BusyBus</h3>
@@ -65,13 +73,17 @@
         <h2 class="connect" id="contact">Connect with me</h2>
         <h3 class="talk">I am always happy to talk projects, UX in general, printmaking process geekery, and 90s hip hop. </h3>
         <footer class="footer" id="bottom">
-          <ul class="icons">
-            <li><i class="fas fa-envelope-square"></i></li>
-            <li><i class="fab fa-dribbble"></i></li>
-            <li><i class="fab fa-linkedin"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
-          </ul>
-          <p class="signature">Designed and Developed by Billy Rose</p>
+          <div class="footer-items">
+            <ul class="icons">
+              <li><i class="fas fa-envelope-square"></i></li>
+              <li><i class="fab fa-dribbble"></i></li>
+              <li><i class="fab fa-linkedin"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+            </ul>
+          </div>
+          <div class="footer-items">
+            <p class="signature">Designed and Developed by Billy Rose</p>
+          </div>
         </footer>
       </div>
     </div>
