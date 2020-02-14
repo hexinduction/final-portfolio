@@ -12,15 +12,17 @@
   }
 
   .my-logo {
-    padding: .8rem 2rem 0 2rem;
+    padding: 0 2rem;
     height: 2.8rem;
+    margin-top: .8rem;
   }
 
-   .fa-bars {
+   .icon {
      color: #00e2f0;
      display: inline-block;
      font-size: 2.4rem;
-     padding: .4rem;
+     padding: 0 .4rem;
+     margin-top: .8rem;
    }
 
    .header-grid-comp {
@@ -37,9 +39,14 @@
 
 @media screen and (min-width: 901px ){
 
+  .navbar {
+    height: 8.6rem;
+  }
+
   .my-logo {
-    padding: 1.1rem 0 0 4.8rem;
+    padding-left: 4.8rem;
     height: 4.9rem;
+    margin-top: 1.6rem;
   }
 
   .nav-right {
