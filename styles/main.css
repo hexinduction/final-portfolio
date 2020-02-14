@@ -249,7 +249,7 @@ a {
 /* ABOUT */
 
 .more {
-  margin: 9.6rem 0 0 4.68%;
+  margin: 14.4rem 0 0 4.68%;
 }
 
 .about-grid {
@@ -275,6 +275,38 @@ a {
 }
 
 .pull-quote {
+  color: #F5003B;
   margin: 4.8rem 0 0 4.68%;
   max-width: 96.6rem;
+}
+
+
+/* PROJECT -1 */
+
+.project-container {
+    background-image: url("../images/bag-phone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 62vh;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+
+
+}
+
+.process-grid {
+ display: grid;
+ grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.left {
+  margin: 7.2rem 0 0 15.28%;
+  width: 39.7rem;
+}
+
+.right {
+  margin: 7.2rem 0 0 15.28%;
+  width: 39.7rem;
 }

@@ -34,6 +34,10 @@
      display: none;
    }
 
+   .portrait {
+     width: 30.7rem;
+     margin-left: 15.28%;
+   }
 
 }
 
@@ -88,6 +92,10 @@
 
    .connect {
      margin-top: 7.2rem;
+   }
+
+   .bio-cont {
+     margin: 7.2rem 0 0 8%;
    }
 
 }
