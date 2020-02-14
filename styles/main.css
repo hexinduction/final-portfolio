@@ -43,7 +43,7 @@ h3 {
 p {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
-  line-height: 130%
+  line-height: 140%
 }
 
 /*link styles */
@@ -307,11 +307,61 @@ a {
 }
 
 .left {
-  margin: 7.2rem 0 0 15.28%;
+  margin: 3.6rem 0 0 15.28%;
   width: 39.7rem;
 }
 
 .right {
-  margin: 7.2rem 0 0 15.28%;
+  margin-left: 12.65%;
+  margin-top: 3.6rem;
   width: 39.7rem;
+}
+
+.bag-intro {
+  margin-top: 7.2rem;
+}
+
+.blurb {
+  margin-top: 3.6rem;
+}
+
+.problem {
+  margin-top: 14.4rem;
+}
+
+.roles {
+  margin-top: 3.6rem;
+}
+
+.roles-list, .tools-list {
+ margin-top: 2.4rem;
+}
+
+.process {
+  margin: 9.6rem 0 0 4.68%;
+}
+
+.sections {
+  margin-top: 9.6rem;
+}
+
+.follow{
+  margin-top: 9.6rem;
+}
+
+.project-image {
+  width: 38rem;
+}
+
+
+.big-images {
+  display: inline-block;
+  justify-content: center;
+  margin: 4.8rem 2.4rem;
+}
+
+.full-project-image {
+  display: inline-block;
+  width: 25rem;
+  margin: 0 2.4rem 0 0;
 }
