@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 900px ) {
 
   .container {
@@ -39,6 +40,40 @@
      margin-left: 15.28%;
    }
 
+
+   /* PROJECTS */
+
+   .project-container {
+       background-image: url("../images/bag-phone-small.png");
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-position: 50% 0%;
+       height: 16vh;
+       position: relative;
+       top: 0;
+       margin: 0 auto;
+
+
+   }
+
+   .summary {
+     margin-top: 31.4rem;
+   }
+
+
+   .process-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 500px;
+   }
+
+   .left {
+     margin-left: auto;
+   }
+
+   .right {
+     margin-left: auto;
+   }
 }
 
 @media screen and (min-width: 901px ){
@@ -96,6 +131,19 @@
 
    .bio-cont {
      margin: 7.2rem 0 0 8%;
+   }
+
+   .project-container {
+       background-image: url("../images/bag-phone.png");
+       background-repeat: no-repeat;
+       background-size: contain;
+       background-position: 90% 0%;
+       height: 48vh;
+       position: relative;
+       top: 0;
+       margin: 0 auto;
+
+
    }
 
 }

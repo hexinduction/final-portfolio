@@ -287,7 +287,7 @@ a {
     background-image: url("../images/bag-phone.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: 96% 50%;
     height: 62vh;
     position: relative;
     top: 0;
@@ -302,8 +302,8 @@ a {
 
 .process-grid {
  display: grid;
- grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
- max-width: 1200px;
+ grid-template-columns:repeat(auto-fit, minmax(450px, 5fr));
+
 }
 
 .left {
@@ -315,11 +315,14 @@ a {
   margin-left: 12.65%;
   margin-top: 3.6rem;
   width: 39.7rem;
+  grid-column-end: -1;
 }
 
 .bag-intro {
   margin-top: 7.2rem;
+
 }
+
 
 .blurb {
   margin-top: 3.6rem;
@@ -329,8 +332,16 @@ a {
   margin-top: 14.4rem;
 }
 
-.roles {
+.roles,  {
   margin-top: 3.6rem;
+}
+
+.tools {
+
+}
+
+.role-column {
+
 }
 
 .roles-list, .tools-list {
@@ -353,15 +364,47 @@ a {
   width: 38rem;
 }
 
+.style-guide {
+  margin: 9.6rem 0 0 15.28%;
+}
 
 .big-images {
   display: inline-block;
   justify-content: center;
   margin: 4.8rem 2.4rem;
+
+}
+
+.undertext {
+  margin-top: 1.6rem;
 }
 
 .full-project-image {
   display: inline-block;
   width: 25rem;
-  margin: 0 2.4rem 0 0;
+  margin: 0 4.8rem 0 0;
+  box-shadow: 0 4px 8px 0 rgba(62, 114, 117, 0.4);
+  border-radius: .4rem;
+}
+
+.testing {
+  margin: 9.6rem 0 0 4.68%;
+}
+
+.mockups {
+  margin-top: 4.8rem;
+}
+
+
+.conclusion {
+  margin: 9.6rem 0 0 4.68%;;
+}
+
+.summary {
+
+  margin-top: 4.8rem;
+}
+
+.to-top {
+  margin: 7.2rem 7.14%;
 }
