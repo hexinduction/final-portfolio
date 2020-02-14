@@ -296,9 +296,14 @@ a {
 
 }
 
+#top {
+  margin-top: 14.4rem;
+}
+
 .process-grid {
  display: grid;
  grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
+ max-width: 1200px;
 }
 
 .left {
