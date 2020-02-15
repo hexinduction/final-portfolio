@@ -23,6 +23,7 @@
           </header>
           <nav class="navbar">
             <div class="nav-grid">
+              <div class="nav-box">
                 <ul id="nav" class="nav">
                   <li>
                     <a href="index.html">
@@ -30,24 +31,25 @@
                     </a>
                   </li>
                 </ul>
-                <ul id="nav" class="nav nav-right">
-                  <li>
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="index.html#work">Work</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
-                    </a>
-                  </li>
-                </ul>
-            </div>
-        </nav>
+              </div>
+              <div class="nav-box">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+                <ul id="mobileLinks" class="nav nav-right">
+                    <li>
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+              </div>
+              </div>
+          </nav>
         <main>
           <h1 class="more">More about me</h1>
           <div class="about-grid">
@@ -81,5 +83,8 @@
         </div>
       </footer>
     </div>
+
+    <script src="scripts/nav.js"></script>
+
   </body>
   </html>
