@@ -26,6 +26,7 @@
         </header>
         <nav class="navbar">
           <div class="nav-grid">
+            <div class="nav-box">
               <ul id="nav" class="nav">
                 <li>
                   <a href="index.html">
@@ -33,7 +34,12 @@
                   </a>
                 </li>
               </ul>
-              <ul id="nav" class="nav nav-right">
+            </div>
+            <div class="nav-box">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <ul id="mobileLinks" class="nav nav-right">
                   <li>
                     <a class="nav-link" href="about.html">About</a>
                   </li>
@@ -43,12 +49,8 @@
                   <li>
                     <a class="nav-link" href="#contact">Contact</a>
                   </li>
-                  <li>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
-                    </a>
-                  </li>
                 </ul>
+            </div>
             </div>
         </nav>
         <h2 id="work" class="work">Recent work</h2>
@@ -88,5 +90,9 @@
           </div>
         </footer>
       </div>
+
+      <script src="scripts/nav.js"></script>
+
+
   </body>
 </html>

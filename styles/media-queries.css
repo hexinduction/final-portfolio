@@ -8,6 +8,8 @@
     height: auto;
   }
 
+
+
   .nav-right {
     margin-left: 80%;
   }
@@ -17,6 +19,8 @@
     height: 2.8rem;
     margin-top: .8rem;
   }
+
+
 
    .icon {
      color: #00e2f0;
@@ -91,6 +95,10 @@
   .nav-right {
 
 
+  }
+
+  .navbar #mobileLinks {
+    display: inline-block;
   }
 
    .nav-link {
