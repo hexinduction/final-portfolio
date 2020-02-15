@@ -8,10 +8,19 @@
     height: auto;
   }
 
+  .nav-grid {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+  }
 
 
-  .nav-right {
-    margin-left: 80%;
+
+  .nav-link {
+    display: inline-block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-top: 3.1rem;
+    margin: auto;
   }
 
   .my-logo {
@@ -19,7 +28,7 @@
     height: 2.8rem;
     margin-top: .8rem;
   }
-  
+
 
    .icon {
      color: #00e2f0;

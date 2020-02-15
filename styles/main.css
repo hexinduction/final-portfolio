@@ -121,7 +121,12 @@ a {
 }
 
 .nav-link {
-  display: none;
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-top: 3.1rem;
+  width: 8.6rem;
+  margin-right: 2.4rem;
 }
 
 .icon {
