@@ -72,13 +72,16 @@ a {
 }
 
 
-/* HEADER */
+/*-------- HEADER  ---------*/
 
-.header {
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
 }
 
-.header-grid {
+.header-grid-comp {
+  display: inline-block;
 
 }
 
@@ -102,14 +105,7 @@ a {
  grid-template-columns: 1fr 1fr;
 }
 
-#nav {
-
-}
-
-
-
 .nav-right {
-
   margin-left: 12.65%;
 }
 
@@ -126,16 +122,7 @@ a {
   display: none;
 }
 
-.header-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 
-}
-
-.header-grid-comp {
-  display: inline-block;
-
-}
 
 /* INDEX.HTML */
 
@@ -197,7 +184,7 @@ a {
 .project-link {
   display: inline-block;
   font-size: 1.6rem;
-  margin-top: 1.6rem;
+  margin-top: 2.4rem;
 }
 
 
@@ -328,13 +315,12 @@ a {
 
 }
 
-
 .blurb {
-  margin-top: 3.6rem;
+  margin-top: 2.4rem;
 }
 
-.problem {
-  margin-top: 14.4rem;
+.top-blurb {
+  margin-top: 3.6rem;
 }
 
 .roles,  {
@@ -342,19 +328,24 @@ a {
 }
 
 .tools {
-
+  margin-top: 3.6rem;
 }
 
-.role-column {
-
-}
 
 .roles-list, .tools-list {
  margin-top: 2.4rem;
 }
 
+.problem {
+  margin-top: 14.4rem;
+}
+
 .process {
   margin: 9.6rem 0 0 4.68%;
+}
+
+.section-head {
+  margin-top: 4.8rem;
 }
 
 .sections {
@@ -366,6 +357,7 @@ a {
 }
 
 .project-image {
+  margin-top: 4.8rem;
   width: 38rem;
 }
 
@@ -376,8 +368,7 @@ a {
 .big-images {
   display: inline-block;
   justify-content: center;
-  margin: 4.8rem 2.4rem;
-
+  margin: 4.8rem 1.2%;
 }
 
 .undertext {
@@ -387,17 +378,16 @@ a {
 .full-project-image {
   display: inline-block;
   width: 25rem;
-  margin: 0 4.8rem 0 0;
   box-shadow: 0 4px 8px 0 rgba(62, 114, 117, 0.4);
   border-radius: .4rem;
 }
 
-.testing {
-  margin: 9.6rem 0 0 4.68%;
+.first-full {
+  margin-left: 4.68%;
 }
 
-.mockups {
-  margin-top: 4.8rem;
+.testing {
+  margin: 9.6rem 0 0 4.68%;
 }
 
 
