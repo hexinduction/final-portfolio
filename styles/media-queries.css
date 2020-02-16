@@ -80,10 +80,16 @@
      margin: .8rem 0;
 
    }
+/* ABOUT */
+
+.bio {
+  margin: 7.2rem 0 0 6.3%;
+  width: 30.7rem;
+}
 
    .portrait {
      width: 30.7rem;
-     margin-left: 15.28%;
+     margin-left: 6.3%;
    }
 
 

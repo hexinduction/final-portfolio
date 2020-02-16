@@ -263,6 +263,12 @@ a {
 }
 
 .portrait {
+  background-image: url("../images-copy/halftone-portrait-blue.png") , url("../images-copy/halftone-portrait-red.png");
+  background-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
   width: 38rem;
   margin-top: 7.2rem;
   margin-left: 12.65%;
