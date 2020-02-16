@@ -87,10 +87,26 @@
   width: 30.7rem;
 }
 
-   .portrait {
-     width: 30.7rem;
-     margin-left: 6.3%;
-   }
+.portrait {
+  background-image: url("../images-copy/halftone-portrait-blue.png") , url("../images-copy/halftone-portrait-red.png");
+  background-blend-mode: multiply;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  border-radius: .4rem;
+  width: 30.6rem;
+  height: 30.6rem;
+  margin-top: 7.2rem;
+  margin-left: 6.3%;
+}
+
+.my-face {
+  display: block;
+  opacity: .8;
+  width: 30.7rem;
+  border-radius: .4rem;
+}
 
 
    /* PROJECTS */
