@@ -14,6 +14,11 @@
   }
 
 
+  .nav-right {
+
+    margin: auto;
+  }
+
 
   .nav-link {
     display: inline-block;
@@ -38,13 +43,42 @@
      margin-top: .8rem;
    }
 
-   .header-grid-comp {
-     margin-left: 12.65%;
-   }
-
 
    .header-spacer {
      display: none;
+   }
+
+   .greeting {
+       margin: 9.6rem 0 auto auto;
+   }
+
+   .intro {
+     font-weight: normal;
+     margin-top: 2.4rem;
+     width: 36rem;
+   }
+
+   .work {
+     margin: 25.6rem 0 auto 4.68%;
+   }
+
+
+
+   .project {
+     width: 30.7rem;
+     margin: 1.6rem 0 0 6.3%;
+     padding-left: 0%;
+   }
+
+   .project-img {
+     display: block;
+     width: 30.7rem;
+   }
+
+   .project-text {
+     display: block;
+     margin: .8rem 0;
+
    }
 
    .portrait {
