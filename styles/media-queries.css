@@ -216,3 +216,18 @@
    }
 
 }
+
+/* PERSONAS */
+
+.persona-full {
+  display: block;
+  width: 80%;
+  height: auto;
+  max-width: 80rem;
+  margin: 9.6rem auto;
+}
+
+.persona-card {
+  width: 80%;
+  max-width: 80rem;
+}
