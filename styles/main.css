@@ -406,3 +406,21 @@ a {
 .to-top {
   margin: 7.2rem 7.14%;
 }
+
+/* PERSONAS */
+
+.persona-full {
+  width: 80%;
+  max-width: 60rem;
+  margin: auto;
+}
+
+.khara-full {
+  background-image: url("../images-copy/khara-full.png");
+  background-size: contain;
+}
+
+.hari-full {
+  background-image: url("../images-copy/hari-full.png");
+  background-size: contain;
+}
