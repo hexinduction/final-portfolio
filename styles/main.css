@@ -219,6 +219,7 @@ a {
 }
 
 .fas , .fab {
+  color: #000;
   font-size: 2.4rem;
   margin: 1.6rem auto;
   padding-left: .8rem;
@@ -284,7 +285,6 @@ a {
     background-size: contain;
     background-position: 96% 50%;
     height: 62vh;
-    position: relative;
     top: 0;
     margin: 0 auto;
 
@@ -294,6 +294,7 @@ a {
 #top {
   margin-top: 14.4rem;
 }
+
 
 .process-grid {
  display: grid;
@@ -364,14 +365,41 @@ a {
   width: 38rem;
 }
 
+.yellow {
+  background-image: url("../images-copy/bg-yellow.png");
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 3.6rem;
+}
+
+
+.blue {
+  background-image: url("../images-copy/bg-blue.png");
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 3.6rem;
+}
+
+.red {
+  background-image: url("../images-copy/bg-red.png");
+  background-size: contain;
+  background-repeat: repeat;
+  margin-top: 3.6rem;
+}
+
+
 .style-guide {
   margin: 9.6rem 0 0 7.14%;
+}
+
+.big-image-display {
+  margin: 2.4rem 12.65%;
 }
 
 .big-images {
   display: inline-block;
   justify-content: center;
-  margin: 4.8rem 1.2%;
+  margin: 4.8rem 1.16%;
 }
 
 .undertext {

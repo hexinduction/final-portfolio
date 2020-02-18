@@ -206,6 +206,8 @@
      margin: 7.2rem 0 0 8%;
    }
 
+   /* PROJECT-1 */
+
    .project-container {
        background-image: url("../images/bag-phone.png");
        background-repeat: no-repeat;
@@ -225,13 +227,13 @@
 
 .persona-full {
   display: block;
-  width: 80%;
+  width: 100%;
   height: auto;
   max-width: 80rem;
   margin: 9.6rem auto;
 }
 
 .persona-card {
-  width: 80%;
+  width: 100%;
   max-width: 80rem;
 }
