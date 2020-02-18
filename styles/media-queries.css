@@ -113,16 +113,20 @@
    /* PROJECTS */
 
    .project-container {
-       background-image: url("../images/bag-phone-small.png");
+       background-image: url("../images-copy/bag-phone.png");
        background-repeat: no-repeat;
        background-size: contain;
-       background-position: 50% 0%;
-       height: 8vh;
-       position: relative;
+       background-position: 12.68% 50%;
+       height: 40vh;
+       position: absolute;
        top: 0;
-       margin: 0 auto;
+       margin: 9.6rem auto;
 
 
+   }
+
+   #top {
+     margin-top: 31.4rem;
    }
 
    .summary {
