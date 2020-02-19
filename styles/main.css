@@ -411,7 +411,6 @@ a {
   background: #2FDED4;
   border-radius: .8rem;
   margin: 3.6rem auto;
-  width: 30.6rem;
 }
 
 .hari {
@@ -419,9 +418,8 @@ a {
   -webkit-filter: grayscale(100%) contrast(200%);
   filter: grayscale(100%) contrast(200%);
   opacity: 1;
-  margin-left: 1%;
+  margin-left: 2%;
   margin-top: -1%;
-  width: 30.6rem;
 }
 
 .khara {
@@ -429,9 +427,8 @@ a {
   -webkit-filter: grayscale(100%) contrast(200%);
   filter: grayscale(100%) contrast(200%);
   opacity: 1;
-  margin-left: 1%;
+  margin-left: 2%;
   margin-top: -1%;
-  width: 30.6rem;
 }
 
 .big-images {
