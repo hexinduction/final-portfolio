@@ -187,6 +187,9 @@ a {
   margin-top: 2.4rem;
 }
 
+/* .bag-link { */
+/*  cursor: url("../images-copy/bag-cursor-icon.png"), auto; } */
+
 
 /* FOOTER */
 
@@ -223,6 +226,14 @@ a {
   font-size: 2.4rem;
   margin: 1.6rem auto;
   padding-left: .8rem;
+}
+
+.fas:hover {
+  color: #F5003B;
+}
+
+.fab:hover {
+  color: #F5003B;
 }
 
 .signature {
@@ -393,13 +404,37 @@ a {
 }
 
 .big-image-display {
-  margin: 2.4rem 12.65%;
+  margin: 2.4rem 3.16%;
+}
+
+.persona-photos {
+  background: #2FDED4;
+  border-radius: .8rem;
+  margin: 3.6rem auto;
+}
+
+.hari {
+  mix-blend-mode: screen;
+  -webkit-filter: grayscale(100%) contrast(200%);
+  filter: grayscale(100%) contrast(200%);
+  opacity: 1;
+  margin-left: 2%;
+    margin-top: -1%;
+}
+
+.khara {
+  mix-blend-mode: screen;
+  -webkit-filter: grayscale(100%) contrast(200%);
+  filter: grayscale(100%) contrast(200%);
+  opacity: 1;
+  margin-left: 2%;
+  margin-top: -1%;
 }
 
 .big-images {
   display: inline-block;
   justify-content: center;
-  margin: 4.8rem 1.16%;
+  margin: 4.8rem .83%;
 }
 
 .undertext {
@@ -413,9 +448,6 @@ a {
   border-radius: .4rem;
 }
 
-.first-full {
-  margin-left: 4.68%;
-}
 
 .testing {
   margin: 9.6rem 0 0 4.68%;
