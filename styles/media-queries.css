@@ -138,14 +138,27 @@
     display: grid;
     grid-template-columns: 1fr;
     max-width: 500px;
+    justify-content: center;
+
    }
 
    .left {
-     margin-left: auto;
+     width: 30.6rem;
+       margin-left: 5.2rem;
    }
 
    .right {
      margin-left: auto;
+   }
+
+   .role-column {
+     width: 30.6rem;
+      margin-left: 5.2rem;
+   }
+
+   .problem {
+     width: 30.6rem;
+      margin-left: 5.2rem;
    }
 
    .persona-photos {
