@@ -91,7 +91,7 @@
 /* ABOUT */
 
 .bio {
-  margin: 7.2rem 0 0 6.3%;
+  margin: 7.2rem 0 0 5.2rem;
   width: 30.7rem;
 }
 
@@ -123,10 +123,10 @@
        background-image: url("../images-copy/bag-phone.png");
        background-repeat: no-repeat;
        background-size: contain;
-       background-position: 12.68% 50%;
+       background-position: 5.2rem 0;
        height: 34vh;
        position: absolute;
-       top: 0;
+       top: 2.4rem;
        margin: 9.6rem auto;
 
 
@@ -151,11 +151,11 @@
 
    .left {
      width: 30.6rem;
-       margin-left: 5.2rem;
+      margin-left: 5.2rem;
    }
 
    .right {
-     margin-left: auto;
+     margin-left: 5.2rem;
    }
 
    .role-column {
