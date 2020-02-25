@@ -411,7 +411,7 @@ a {
 .persona-photos {
   background: #2FDED4;
   border-radius: .8rem;
-  margin: 3.6rem auto;
+  margin-top: 3.6rem;
 }
 
 .hari {
@@ -485,8 +485,4 @@ a {
 
 .persona-card {
   max-width: 30rem;
-}
-
-.persona-card {
-
 }
