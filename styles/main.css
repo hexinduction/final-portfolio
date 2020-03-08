@@ -479,8 +479,8 @@ a {
 /* PERSONAS */
 
 .persona-display {
-
-  margin-left: 2rem;
+  top: 50%;
+  left: 50%;
 }
 
 .persona-full {
