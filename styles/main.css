@@ -216,6 +216,14 @@ a {
 
 }
 
+.home-footer {
+  background-image: url("../images-copy/bg-yellow.png") , url("../images-copy/bg-yellow.png");
+}
+
+.footer-project {
+  background-image: url("../images-copy/bg-red.png") , url("../images-copy/bg-red.png");
+}
+
 .footer-items {
   width: 30rem;
   margin: 0 auto;
@@ -471,18 +479,18 @@ a {
 /* PERSONAS */
 
 .persona-display {
-  display: inline-block;
+
   margin-left: 2rem;
 }
 
 .persona-full {
   display: block;
-  width: 60%;
+  width: 80%;
   height: auto;
-  max-width: 30rem;
+
   margin: 9.6rem auto;
 }
 
 .persona-card {
-  max-width: 30rem;
+  max-width: 80%;
 }
