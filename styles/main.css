@@ -152,7 +152,7 @@ a {
 .project {
   width: 30.7rem;
 /*  margin-left: 5.2rem; */
-  margin-top: 1.6rem;
+  margin-top: 4.8rem;
   padding-left: 12.65%;
 }
 
@@ -300,7 +300,7 @@ a {
 
 
 .project-container {
-    background-image: url("../images/bag-phone.png");
+    background-image: url("../images-copy/bag-phone.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 96% 50%;
@@ -493,4 +493,21 @@ a {
 
 .persona-card {
   max-width: 80%;
+}
+
+/* PROJECT -2 */
+
+
+
+
+.project-two-container {
+    background-image: url("../images-copy/haricot-demo.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 96% 50%;
+    height: 62vh;
+    top: 0;
+    margin: 0 auto;
+
+
 }

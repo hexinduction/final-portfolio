@@ -177,6 +177,19 @@
      width: 30.6rem;
      margin-left: 1%;
    }
+
+   /* PROJECTS */
+
+     .project-two-container {
+         background-image: url("../images-copy/haricot-demo.gif");
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: 12.68% 50%;
+         height: 34vh;
+         position: absolute;
+         top: 0;
+         margin: 9.6rem auto;
+       }
 }
 
 .big-images {
@@ -281,4 +294,6 @@
   width: 100%;
   max-width: 80rem;
   }
+
+
 }
