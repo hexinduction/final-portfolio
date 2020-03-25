@@ -159,6 +159,7 @@ a {
 .project-img {
   display: inline-block;
   width: 30.6rem;
+  border-radius: .4rem;
 }
 
 .project-text {
