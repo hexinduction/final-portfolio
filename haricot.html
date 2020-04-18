@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:b' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/media-queries.css">
@@ -16,7 +17,7 @@
   <body>
     <div class="project-two-container">
       <header class="header" id="header">
-        <h2 class="process full-summary" id="top">Case Study Coming Soon</h2>
+        <h2 class="process full-summary" id="top">Summary</h2>
         <div class="process-grid">
           <div class="left bag-intro">
                   <h1 class="bag">Haricot</h1>
@@ -54,7 +55,207 @@
           </div>
       </nav>
       <main>
+        <div class="process-grid">
+          <div class="left problem">
+            <h3>Problem</h3>
+            <p class="blurb top-blurb">Create an app for a product which combines meal delivery and charitable giving. Users need to: <br><br>Review dinner menu.<br><br>Schedule meals in advance or order as needed.<br><br>Choose a charitable organization to distribute donated meals.<br><br>Feed hungry people in the user’s community.</p>
 
+          </div>
+          <div class="right problem">
+            <h3>Solution</h3>
+            <p class="blurb">Haricot allows users to donate meals to hungry people in their communities, while having nutritious, seasonal dinners conveniently delivered to their doorsteps. The idea is simple: <br><br>View and select meals from the dinner menu for the nights you need dinner, or select the current dinner for immediate delivery.<br><br>Modify meals to fit your unique dietary needs. You can choose from a dietary framework, and/ or modify meal ingredients as needed.<br><br>Choose a charitable organization to distribute meals donated from your orders.<br><br>Give the same meal you are eating to a hungry person in your community. For each meal purchased, the same meal goes to an underfed person. In this way, users break bread with those they seek to help, even if not together, physically.</p>
+          </div>
+        </div>
+          <h2 class="process">Process</h2>
+          <div class="bg-blue">
+          <div class="process-grid">
+            <div class="left">
+              <h3 class="section-head">Competitive Analysis</h3>
+              <a class="button project-link" href="https://docs.google.com/document/d/1MYywBedmbJW6CVSR5YnAKqnmtSEu-6PJs-1L2SqeVhI/edit?usp=sharing">Read competitive analysis</a><br>
+              <p class="blurb">Many services exist to get meals to users’ doorsteps. A variety of companies specialize in prepared meals with focus on convenience and/or nutrition. I conducted a competitive analysis for each of the following meal delivery services: Freshly, Blue Apron, and Hello Fresh. <br><br>Blue Apron and Hello Fresh each offer meal kits which contain all the ingredients for, and instructions to cook, a particular meal. Freshly offers frozen prepared meals which require reheating in the oven. Blue Apron and Hello Fresh each cater to those who desire to learn to cook well, while desiring guidance, and providing a grocery-store free experience. Freshly, on the other hand, seems to cater to those who are looking for convenient, nearly ready-to-eat meals, and may have dietary restrictions. Hello Fresh and Blue Apron convey a sense of the experience of cooking. Freshly conveys a sense of removing the hassle of shopping and cooking from eating.<p>
+            </div>
+            <div class="right">
+              <img class="project-image" src="images-copy/hellofresh.png">
+            </div>
+          <div class="left sections">
+            <h3 class="section-head">User Surveys</h3>
+            <a class="button project-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfO8uSm-Qr3NUuaNR8sJ4q0Ize6MrhHecgnTkbiqT2boLSZXA/viewform?usp=sf_link">View the user survey</a><br>
+            <p class="blurb">A user survey was sent out to identify which services users have tried, how their experience was/is, and if a similar service with a mission of hunger relief would be appealing. Here is what I found: <br></p>
+          </div>
+          <div class="right follow">
+            <section class="grid-container">
+            <p>Would you use a meal service that focused on delivering prepared, health-conscious, whole foods to you and those in need in your community?<br><br></p>
+            <div class="center">
+                <canvas id="myChart"></canvas>
+            </div>
+        </section>
+          </div>
+          <div class="left">
+            <h3 class="section-head">Personas</h3>
+            <a class="button project-link" href="https://www.figma.com/proto/Yoq2eIMhkc7KeharjIvU28/Personas?node-id=0%3A2&viewport=189%2C540%2C0.19295454025268555&scaling=min-zoom">View the personas</a><br>
+            <p class="blurb">Three distinct personas were created based on user surveys and follow up interviews. While each persona has an interest in convenient meals and charitable giving, each is in a unique situation, and their needs are each distinct.</p>
+          </div>
+          <div class="right">
+            <div class="persona-photos">
+              <img class="project-image smaller-persona" src="images-copy/lake.png">
+            </div>
+            <div class="persona-photos">
+              <img class="project-image smaller-persona" src="images-copy/matt.png">
+            </div>
+            <div class="persona-photos">
+              <img class="project-image smaller-persona" src="images-copy/reesa.png">
+            </div>
+          </div>
+        </div>
+        <div class="bg yellow">
+        <div class="process-grid">
+            <div class="left">
+              <h3 class="section-head">User Stories</h3>
+              <a class="button project-link" href="https://docs.google.com/spreadsheets/d/1PPg7WQY8AnydfttbJaUpUy3hfW7kQTkl1nN359L9GgE/edit?usp=sharing">View the stories</a><br>
+              <p class="blurb">Market research, user surveys, and personas all honed in on specific user needs. To give these more focus, I developed a set of user stories that stated user desires and then prioritized them. This exercise yielded the essential functions the Haricot app would need for a successful Minimum Viable Product. Referring back to these stories was essential for avoiding scope creep.<br><br><br><br></p>
+            </div>
+            <div class="right stories">
+              <h3>priority levels</h3>
+           <div class="chart-wrapper">
+             <ul class="chart-y">
+               <li>High</li>
+               <li><br></li>
+               <li>Medium</li>
+               <li><br></li>
+               <li>Low</li>
+               <li></li>
+             </ul>
+             <ul class="chart-x">
+               <li data-priority="5"></li>
+               <li data-priority="4"></li>
+               <li data-priority="3"></li>
+               <li data-priority="2"></li>
+               <li data-priority="1"></li>
+             </ul>
+             <ul class="chart-labels">
+               <li class="priorities">Sign up for account.</li>
+               <li class="priorities">Order a meal.</li>
+               <li class="priorities">Edit meals.</li>
+               <li class="priorities">Track an order.</li>
+               <li class="priorities">Choose charity.</li>
+             </ul>
+           </div>
+            </div>
+          </div>
+        </div>
+        <div class="process-grid">
+          <div class="left">
+            <h3 class="section-head"class="section-head">User Flows</h3>
+            <a class="button project-link" href="https://drive.google.com/file/d/1a0DTRkBafV13HAD-KK9xSTOfcGvsvFaV/view?usp=sharing">View the user flow</a><br>
+            <p class="blurb">I developed user flows following user stories and a sitemap as guidelines. I began breaking each user story into individual components of the whole. I discovered a more intuitive approach to realizing simple flows which guide users to their goals.</p>
+          </div>
+          <div class="right">
+            <img class="project-image" src="images-copy/haricot-userflows.png">
+          </div>
+          <div class="left">
+            <h3 class="section-head">Wireframes</h3>
+            <p class="blurb">User flows made clear exactly what users will do to complete tasks with Bag of Sharing. Wireframing explored many different versions of how users will do those things to complete those tasks. The most significant departures while iterating on wireframes included:<br><br>Layouts for selected meals details.<br><br>Introductory “Quiz Style” buttons.<br><br>Access to Home Screen, Account, Info and other actions.</p>
+          </div>
+        </div>
+        <div class="big-image-display">
+          <div class="big-images">
+              <img class="full-project-image" src="images-copy/early-home.png">
+              <p class="undertext">Early dashboard</p>
+          </div>
+          <div class="big-images">
+              <img class="full-project-image" src="images-copy/early-menu.png">
+              <p class="undertext">Early menu</p>
+          </div>
+          <div class="big-images">
+              <img class="full-project-image" src="images-copy/updated-home.png">
+              <p class="undertext">Updated dashboard</p>
+          </div>
+          <div class="big-images">
+              <img class="full-project-image" src="images-copy/updated-menu.png">
+              <p class="undertext">Updated menu</p>
+          </div>
+          </div>
+        <h2 class="process">Branding</h2>
+          <a class="button project-link style-guide" href="https://www.figma.com/proto/iPDuz0d482rXxO8Hoq4ud2/Bag-of-Sharing-Style-Guide?node-id=132%3A0&viewport=196%2C409%2C0.03944800794124603&scaling=min-zoom">View the style guide</a><br>
+          <div class="bg red">
+            <div class="process-grid">
+              <div class="left">
+                <h3 class="section-head">Brand Name</h3>
+                <p class="blurb">I wanted the name of the service to reflect central philosophies of interdependency and growth. The name should call to what the service does while declaring “We’re all in this together!” I explored a lot of motifs and ideas, but ultimately loved the ring of using the name of a vegetable. Many names were entertained, but “haricot”  conveyed everything the company represents. Haricot is the common name for pole beans. It rolls off the tongue while referring to the proverbial “peas in a pod,” in this case, all those in a community together. <br><br><br><br></p>
+              </div>
+              <div class="right">
+                <p class="name-list stricken">&nbsp;&nbsp;&nbsp;&nbsp;brandywine</p>
+                <p class="name-list stricken">&nbsp;&nbsp;&nbsp;&nbsp;shishito</p>
+                <p class="name-list stricken">&nbsp;&nbsp;&nbsp;&nbsp;snap pea</p>
+                <p class="name-list">&#10004; haricot</p>
+              </div>
+            </div>
+          </div>
+            <div class="process-grid">
+              <div class="left">
+                <h3>Logo</h3>
+                <p>The logo is a natural extension of the name. A lyrical script text recalls the curling vines on which haricots grow. Below the name are three “seeds” or beans. The final of the three splits open to signify new life and growth.</p>
+              </div>
+              <div class="right">
+                <img class="project-image" src="images-copy/haricot-logo-preview.png">
+              </div>
+              <div class="left">
+                <h3 class="section-head">Color Palette & Typeface</h3>
+                <p class="blurb">Tackling problems as big as hunger can seem daunting. Haricot wishes to convey a sense of encouragement. The color palette, like the logo, is uplifting, fun, and active. A complimentary logo color scheme juxtaposes the deep purple which rounds out the main palette.<br><br><br><br>Ultra is, as it’s name suggests,  big and superlative with lots of juxtaposition. It has a stark contrast of weight, with thick strokes and thin terminals. It’s surprising, fun, and hard to miss. It’s weight gives it a feeling of security and steadfastness. <br><br>Heebo is a great support. It’s legible and clean. The variety of weights and styles are more than ample. Heebo is used mostly for body text. Use regular weight for this. H3s and occassionally H2s will be set in Heebo, using bold. </p>
+              </div>
+              <div class="right">
+                <img class="project-image" src="images-copy/haricolors.png">
+                <img class="project-image" src="images-copy/ultra-type.png">
+              </div>
+            </div>
+          <h2 class="testing">Mockups & Testing</h2>
+          <div class="bg blue">
+            <div class="process-grid">
+                <div class="left">
+                  <h3 class="section-head">Mockups</h3>
+                  <p class="blurb">I designed high fidelity mockups using Figma. This phase moved fairly quickly, as most of the interface just needed to be skinned with color, typography, and imagery.</p>
+                </div>
+            </div>
+            <div class="big-image-display">
+                <div class="big-images">
+                  <img class="full-project-image first-full" src="images-copy/haricot-home.png">
+                  <p class="undertext">Dashboard</p>
+                </div>
+                <div class="big-images">
+                  <img class="full-project-image" src="images-copy/charity.png">
+                  <p class="undertext">Choose a charity</p>
+                </div>
+                <div class="big-images">
+                  <img class="full-project-image" src="images-copy/details.png">
+                  <p class="undertext">Edit selected meal</p>
+                </div>
+                <div class="big-images">
+                  <img class="full-project-image" src="images-copy/edit-meal.png">
+                  <p class="undertext">User-friendly snackbar</p>
+                </div>
+            </div>
+          </div>
+          <div class="process-grid">
+            <div class="left">
+              <h3 class="section-head">Testing</h3>
+              <p class="blurb">User feedback included preference tests through Usability Hub, in-person and email interviews, and, perhaps most importantly, user testing the prototype. The feedback from these tests was essential to refining the interface and creating a quality user experience. Improvements discovered through user testing include:<br><br>Type weight changes for CTAs.<br><br>Navigational interaction to help move users through the onboarding process.<br><br>Reorganizing action icons at the top.</p>
+            </div>
+            <div class="right">
+
+            </div>
+            </div>
+            <h2 class="conclusion">Conclusion</h2>
+            <div class="process-grid">
+              <div class="left summary section-head">
+                <h3>Summary & Beyond</h3>
+                <p class="blurb">Haricot is a large undertaking that goes far beyond the app. There is a lot of logistical legwork to be done to get this project going. Still, there is much to be done with the app. So far there is a prototype for an app using Google Material guidelines. The next steps for the app are:<br><br>Design an iOS-compliant app.<br><br>Design the desktop app.<br><br> Add a statistics page (for fun animated visuals of how much you donated).</p>
+              </div>
+              <div class="right meta section-head">
+                <h3>Meta-Conclusion</h3>
+                <p class="blurb">This project was a special challenge. First, it was very rewarding to work on a product which involved my passion in community action. My experience with volunteer work, food service, and food production informed my design process. It was my first experience designing a product where the service wasn’t software. Logistics had to be discovered and considered very early on. This is where user stories informed actions far beyond the app. An operations team would be an ideal addition to the planning stages of such a product.</p>
+              </div>
+          </div>
+          <a class="button project-link to-top" href="#top">Back to top</a><br>
         <h2 class="connect" id="contact">Connect with me</h2>
         <h3 class="talk">I am always happy to talk projects, UX in general, printmaking process geekery, and 90s hip hop.</h3>
       </main>
@@ -72,6 +273,40 @@
         </div>
       </footer>
     </div>
+
+        <!-- chart.js -->
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+        <script>
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'pie',
+
+    // The data for our dataset
+    data: {
+        labels: ['Yes', 'No'],
+        datasets: [{
+            label: 'My First dataset',
+            backgroundColor: ['rgb(79, 219, 142)', 'rgb(234, 89, 89)'],
+            data: [100,0]
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+        </script>
+
+        <!-- Priority meter -->
+        <script type="text/javascript">
+          window.addEventListener("load", () => {
+document.body.classList.add("loaded");
+});
+      </script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159008357-2"></script>

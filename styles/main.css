@@ -6,7 +6,9 @@ html {
 }
 
 body {
-
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6rem;
+  line-height: 140%
 }
 
 ul {
@@ -292,6 +294,7 @@ a {
   color: #F5003B;
   margin: 4.8rem 0 0 4.68%;
   max-width: 96.6rem;
+  line-height: 120%;
 }
 
 
@@ -418,6 +421,17 @@ a {
 }
 
 .persona-photos {
+  border-radius: .8rem;
+  margin-top: 3.6rem;
+}
+
+.smaller-persona {
+  border-radius: .8rem;
+  margin-top: 3.6rem;
+  width: 24rem;
+}
+
+.persona-photos-blue {
   background: #2FDED4;
   border-radius: .8rem;
   margin-top: 3.6rem;
@@ -440,6 +454,7 @@ a {
   margin-left: 2%;
   margin-top: -1%;
 }
+
 
 .big-images {
   display: inline-block;
@@ -502,7 +517,7 @@ a {
 
 
 .project-two-container {
-    background-image: url("../images-copy/haricot-demo.gif");
+    background-image: url("../images-copy/haricot-phone.gif");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 96% 50%;
@@ -511,4 +526,229 @@ a {
     margin: 0 auto;
 
 
+}
+
+.stricken {
+  font-family: Pacifico;
+  font-size: 4.8rem;
+  line-height: 200%;
+  text-decoration: line-through;
+  opacity: 0.7;
+
+}
+
+.name-list {
+  font-family: Pacifico;
+  font-size: 4.8rem;
+  line-height: 200%;
+
+}
+
+/* Haricot user stories meter */
+/* RESET RULES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+
+  --chart-bg-color: rgba(211, 211, 211);
+  --chart-line-color: rgba(60, 42, 84, 0);
+  --chart-x-color: linear-gradient(#F5003B,#00E2F0);
+  --line-color1: rgba(60, 42, 84,  .2);
+  --line-color2: rgba(60, 42, 84, .4);
+  --line-color3: rgba(60, 42, 84, .6);
+  --line-color4: rgba(60, 42, 84, .8);
+  --line-color5: rgba(60, 42, 84,  1);
+  --white: white;
+  --transition-delay: 0.6s;
+  --transition-delay-step: 0.6s;
+}
+
+
+.priorities {
+  display: block;
+}
+
+
+
+/* BODY
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+  padding-top: 70px;
+}
+
+.chart-wrapper {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 4rem;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+
+/* CHART-Y
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chart-wrapper .chart-y {
+  display: grid;
+  grid-row-gap: 3rem;
+}
+
+
+/* CHART-X
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chart-wrapper .chart-x {
+  position: relative;
+  width: 50px;
+  border-radius: 25px;
+  border: 0px solid var(--chart-line-color);
+ /* background: var(--chart-bg-color);*/
+  overflow: hidden;
+}
+
+.chart-wrapper .chart-x li {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  color: transparent;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  background: var(--chart-x-color);
+  transition: height 0.5s ease-out;
+}
+
+.chart-wrapper .chart-x li::before {
+  content: attr(data-priority);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-top: 4px solid;
+  width: 20px;
+  opacity: 0;
+  padding-left: 3px;
+  color: var(--black);
+  font-size: 0.75rem;
+  transition: opacity 0.5s ease-out;
+}
+
+.chart-wrapper .chart-x li:nth-child(1)::before {
+  border-color: var(--line-color1);
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step)
+  );
+}
+
+.chart-wrapper .chart-x li:nth-child(2)::before {
+  border-color: var(--line-color2);
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 2
+  );
+}
+
+.chart-wrapper .chart-x li:nth-child(3)::before {
+  border-color: var(--line-color3);
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 3
+  );
+}
+
+.chart-wrapper .chart-x li:nth-child(4)::before {
+  border-color: var(--line-color4);
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 4
+  );
+}
+
+.chart-wrapper .chart-x li:nth-child(5)::before {
+  border-color: var(--line-color5);
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 5
+  );
+}
+
+
+/* CHART LABELS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.chart-wrapper .chart-labels {
+  opacity: 0;
+  transition: opacity 0.6s 3.8s;
+}
+
+.chart-wrapper .chart-labels li + li {
+  margin-top: 12px;
+}
+
+.chart-wrapper .chart-labels li::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.chart-wrapper .chart-labels li:nth-child(1)::before {
+  background: var(--line-color5);
+}
+
+.chart-wrapper .chart-labels li:nth-child(2)::before {
+  background: var(--line-color4);
+}
+
+.chart-wrapper .chart-labels li:nth-child(3)::before {
+  background: var(--line-color3);
+}
+
+.chart-wrapper .chart-labels li:nth-child(4)::before {
+  background: var(--line-color2);
+}
+
+.chart-wrapper .chart-labels li:nth-child(5)::before {
+  background: var(--line-color1);
+}
+
+
+/* LOADED
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.loaded .chart-wrapper .chart-x li::before,
+.loaded .chart-wrapper .chart-labels {
+  opacity: 1;
+}
+
+.loaded .chart-wrapper .chart-x li:nth-child(1) {
+  height: 60%;
+  transition-delay: var(--transition-delay);
+}
+
+.loaded .chart-wrapper .chart-x li:nth-child(2) {
+  height: 70%;
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step)
+  );
+}
+
+.loaded .chart-wrapper .chart-x li:nth-child(3) {
+  height: 80%;
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 2
+  );
+}
+
+.loaded .chart-wrapper .chart-x li:nth-child(4) {
+  height: 90%;
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 3
+  );
+}
+
+.loaded .chart-wrapper .chart-x li:nth-child(5) {
+  height: 100%;
+  transition-delay: calc(
+    var(--transition-delay) + var(--transition-delay-step) * 4
+  );
+}
+
+.stories {
+  margin-top: 7.2rem;
 }
